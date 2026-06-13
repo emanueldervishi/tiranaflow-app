@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "TiranaFlow",
+    "slug": "tiranaflow",
+    "scheme": "tiranaflow",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.tiranaflow.mobile",
+      "infoPlist": {
+        "NSCameraUsageDescription": "TiranaFlow uses the camera so you can photograph city incidents.",
+        "NSLocationWhenInUseUsageDescription": "TiranaFlow uses your location to place reports on the city map."
+      }
+    },
+    "android": {
+      "package": "app.tiranaflow.mobile",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-web-browser",
+        {
+          "experimentalLauncherActivity": false
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

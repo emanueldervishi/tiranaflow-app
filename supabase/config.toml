@@ -1,0 +1,10 @@
+project_id = "kquutavlalbxwgznefgq"
+
+[functions.city-assistant]
+verify_jwt = true
+
+[functions.ingest-events]
+verify_jwt = false
+
+[functions.expire-events]
+verify_jwt = false

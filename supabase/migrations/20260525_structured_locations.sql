@@ -1,0 +1,2 @@
+-- Legacy LastSeen structured-locations migration already applied remotely.
+-- Kept locally only to preserve Supabase migration history.

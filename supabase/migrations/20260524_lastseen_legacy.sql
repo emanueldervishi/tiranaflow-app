@@ -1,0 +1,2 @@
+-- Legacy LastSeen migration already applied to the remote project.
+-- Kept locally only to preserve Supabase migration history.
